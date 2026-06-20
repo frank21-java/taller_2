@@ -2,6 +2,6 @@
 
 int main() {
     Sistema sistema;
-    sistema.ejecutar();
+    sistema.iniciar();
     return 0;
 }
