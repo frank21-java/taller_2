@@ -74,7 +74,7 @@ void cargarCfg(Lista& lista, Lista& registros ) {
 void guardarCfg(Lista& lista){
     if(lista.getActual()==nullptr)return;
     
-    ofstream archivo("data/music_source.txt");
+    ofstream archivo("data/status.cfg");
     archivo<<"id="<<lista.getActual()->id<<endl;
     archivo<<"reproduciendo="<<(reproduciendo ? "true" : "false")<<endl;
     archivo<<"modo aleatorio="<<(lista.getAleatorio() ? "true" : "false")<<endl;

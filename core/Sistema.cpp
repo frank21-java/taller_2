@@ -9,7 +9,7 @@
 
 using namespace std;
 
-void Sistema::ejecutar() {
+void Sistema::iniciar() {
 
     cargarTxt(lista, registros);
     cargarCfg(lista, registros);
@@ -65,6 +65,7 @@ void Sistema::menuPrincipal() {
 }
 
 void Sistema::menuLista(){
+    Node* actual = lista.getActual();
     string option2;
     do {
         menu_2(registros, actual, lista);
@@ -101,6 +102,7 @@ void Sistema::menuLista(){
 }
 
 void Sistema::menuCanciones(){
+    Node* actual = lista.getActual();
     string option3;
     do {
         menu_3(registros, actual, lista);
