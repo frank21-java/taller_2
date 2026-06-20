@@ -32,7 +32,7 @@ class Lista{
          * @param registros Lista que contiene las canciones que se han tocado hasta el momento
          * @return false si esta vacia, true si no lo esta
          */
-        bool mostrar2(Lista& registros);
+        int mostrar2();
         /**
          * Recorre la lista en busca de un nodo especifico
          * 
@@ -71,10 +71,6 @@ class Lista{
          * Mueve una cancion seleccionada al final de la lista
          */
         void Songfin(int id,Lista& lista);
-        /**
-         * Reproduce una cancion en espesifico que nosotros le indiquemos por la terminal
-         */
-        void reproducirsong(int id);
         /**
          * Alterna entre true y false para determinar si el modo aleatorio esta o no activo
          */
