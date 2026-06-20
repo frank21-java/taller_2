@@ -1,4 +1,10 @@
-id=4
-reproduciendo=true
-modo aleatorio=false
-repeticion=0
+1,cancion1,artista1,album1,2001,180,/musica/cancion1.mp3
+2,cancion2,artista2,album2,2002,190,/musica/cancion2.mp3
+3,cancion3,artista3,album3,2003,200,/musica/cancion3.mp3
+4,cancion4,artista4,album4,2004,210,/musica/cancion4.mp3
+5,cancion5,artista5,album5,2005,220,/musica/cancion5.mp3
+6,cancion6,artista6,album6,2006,230,/musica/cancion6.mp3
+7,cancion7,artista7,album7,2007,240,/musica/cancion7.mp3
+8,cancion8,artista8,album8,2008,250,/musica/cancion8.mp3
+9,cancion9,artista9,album9,2009,260,/musica/cancion9.mp3
+10,cancion10,artista10,album10,2010,270,/musica/cancion10.mp3
