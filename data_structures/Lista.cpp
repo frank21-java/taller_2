@@ -251,3 +251,4 @@ int Lista::ultimaSong(){
     }
     return idsong + 1;
 }
+int Lista::getCantidad(){return cantidad;}

@@ -26,4 +26,5 @@ struct Node{
      */
     Node(int id, string nombre, string artista, string album, int year, int duracion, string ruta);
     Node* prev;
+    int reproducciones;
 };

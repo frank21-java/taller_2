@@ -112,4 +112,5 @@ class Lista{
 		int getRepeticion();
 		Node* getStart();
 		Node* getActual();
+        int getCantidad();
 };
