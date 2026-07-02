@@ -9,4 +9,5 @@ Node::Node(int id, string nombre, string artista, string album, int year, int du
     this->duracion = duracion;
     this->ruta = ruta;
     prev=nullptr;
+    reproducciones=0;
 }
