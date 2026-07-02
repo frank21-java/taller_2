@@ -4,10 +4,9 @@ using namespace std;
 
 struct AvlNode
 {
-    string artista;
-    Lista canciones;
+    Node* cancion;
     int altura;
     AvlNode* izquierdo;
     AvlNode* derecho;
-    AvlNode(string artista);
+    AvlNode(Node* cancion);
 };
